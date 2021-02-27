@@ -15,7 +15,7 @@ describe('Ebay Product Search', () => {
         allureReporter.addSeverity('Critical')
         SearchPage.searchInput.addValue('Laptop');
         SearchPage.searchBtn.click();
-        expect(SearchPage.searchInput).toHaveValue('Laptqop')
+        expect(SearchPage.searchInput).toHaveValue('Laptop')
     });
 
     it('should redirect to a new page and verify the tile', () => {
